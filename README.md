@@ -1,29 +1,35 @@
 # ACC-plan
+trabalho de conclusão de curso de ADS │ 2023.2
 
-This template should help get you started developing with Vue 3 in Vite.
+**Briefing**
 
-## Recommended IDE Setup
+No Instituto Federal de Educação Ciência e Tecnologia do Piauí Campus Picos existem alunos que enfrentam dificuldade para concluir as atividades complementares. Também existem pessoas que conhecem possíveis atividades complementares a se realizar. A proposta é desenvolver uma plataforma que permita aos alunos visualizarem de forma simples quais atividades eles podem realizar, criar uma lista com as atividades desejadas e divulgar/visualizar atividades que conhecem.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**Visão do produto**
 
-## Customize configuration
+Para os alunos do curso de análise e desenvolvimento de sistemas do IFPI Campus Picos -, que necessitam uma forma fácil de entender suas atividades complementares, planejá-las e encontrar oportunidades de realizá-las, o ACC plan é um sistema planejamento para atividades complementares que ajuda os alunos a entenderem de forma fácil as opções para realizar as atividades complementares, planejar a melhor forma de concluí-las e auxiliar na procura de atividades.
+Ao contrário de outros sistemas desenvolvidos para auxiliar na realização de atividades complementares que são específicos para cada finalidade, nosso produto, além de ser feito inteiramente sob medida para os alunos do curso de análise e desenvolvimento de sistemas do IFPI Campus Picos, é uma forma de mitigação centralizada de várias possíveis causas para a dificuldade dos alunos em concluir atividades complementares.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+**Descrição**
 
-## Project Setup
+O objetivo do site ACC-plan é  auxiliar alunos do curso de ADS do IFPI campus Picos no planejamento da realização das suas atividades complementares. Os alunos poderão visualizar as atividades que podem realizar, criar uma lista com as atividades desejadas, divulgar atividades e visualizar divulgações de atividades. O site busca mitigar algumas possíveis causas para a dificuldade dos alunos de ADS do IFPI campus Picos em concluir suas atividades complementares.
 
-```sh
-npm install
-```
+**Motivo da escolha das tecnologias**
 
-### Compile and Hot-Reload for Development
+As tecnologias foram escolhidas por serem utilizadas no mercado
 
-```sh
-npm run dev
-```
+**Implementação futura**
 
-### Compile and Minify for Production
+Não tenho previsão de alterações futuras após o fim do projeto.
 
-```sh
-npm run build
-```
+**Wireframes**
+
+https://miro.com/app/board/uXjVMPRPZJY=/?share_link_id=876607133207
+
+**Mapa de navegação**
+
+https://octopus.do/3rto2gys4i6
+
+**Badges**
+
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
