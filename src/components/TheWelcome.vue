@@ -10,36 +10,37 @@ import HelloWorld from '../components/HelloWorld.vue'
 
 <template>
   <div class="grid">
-        <header>
-    <img alt="logo ACC plan" class="logo" src="@/assets/Logo.png" width="125" height="125" />
+    <header>
+      <img alt="logo ACC plan" class="logo" src="@/assets/Logo.png" width="125" height="125" />
 
-    <div class="wrapper">
-      <HelloWorld msg="ACC plan" />
-    </div>
-  </header>
-  <WelcomeItem >
-    <template #heading>ACC plan</template>
-    <p class="text-center">
-      
-      O ACC plan é um site desenvolvido para auxiliar os alunos do curso de ADS do 
-    PPC de 2018 do IFPI - Campus Picos no planejamento de suas atividades complementares. 
-    Entre suas funções estão a listagem de atividades, criação de uma lista de atividades, organização da lista de atividades e 
-    cálculo de quantas horas um certificado valerá (em caso de deferido)
-    <span style="color: red">
-    . IMPORTANTE: este site não foi desenvolvido pelo IFPI, por tanto não 
-    validará suas atividades, devem ser validadas em:
-  </span>
-    <a href="https://suap.ifpi.edu.br/" target="_blank" rel="noopener">SUAP</a>
-  </p>
-  <center>
-  <router-link type="button" class="btn btn-primary btn-lg" to="/about">Entrar</router-link>
-  </center>
-  </WelcomeItem>
-</div>
+      <div class="wrapper">
+        <HelloWorld msg="ACC plan" />
+      </div>
+    </header>
+    <WelcomeItem>
+      <template #heading>ACC plan</template>
+      <p class="text-center">
+
+        O ACC plan é um site desenvolvido para auxiliar os alunos do curso de ADS do IFPI - Campus Picos no planejamento
+        de suas
+        atividades complementares.
+        Entre suas funções estão a listagem de atividades, criação de uma lista de atividades, organização da lista de
+        atividades e
+        cálculo de quantas horas um certificado valerá (em caso de deferido)
+        <span style="color: red">
+          . IMPORTANTE: este site não foi desenvolvido pelo IFPI, portanto não
+          validará suas atividades, devem ser validadas em:
+        </span>
+        <a href="https://suap.ifpi.edu.br/" target="_blank" rel="noopener">SUAP</a>
+      </p>
+      <center>
+        <router-link type="button" class="btn btn-primary btn-lg" to="/about">Entrar</router-link>
+      </center>
+    </WelcomeItem>
+  </div>
 </template>
 
 <style scoped>
-
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -50,11 +51,12 @@ header {
   margin: 0 auto 2rem;
 }
 
-.grid{
+.grid {
   align-content: center;
   align-items: center;
   display: grid;
 }
+
 nav {
   width: 100%;
   font-size: 12px;
@@ -105,10 +107,10 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-  .grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-}
-}
-</style>
+  }
+}</style>
