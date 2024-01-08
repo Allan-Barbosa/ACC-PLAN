@@ -1,0 +1,156 @@
+{
+  "atividades": [
+    {
+      "categoria": "Ensino",
+      "tipo": "Disciplinas de outra graduação, cursadas no mesmo período do curso vigente no IFPI, na modalidade presencial ou a distância, nas quais o discente tenha obtido aprovação.",
+      "carga_horaria_individual": "20h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "60h/a",
+      "certificado": "Histórico"
+    },
+    {
+      "categoria": "Ensino",
+      "tipo": "Participação em Programa Institucional de Monitoria Acadêmica.",
+      "carga_horaria_individual": "20h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "60h/a",
+      "certificado": "Documento comprobatório o atestado ou declaração da Coordenação do Curso responsável pela monitoria."
+    },
+    {
+      "categoria": "Ensino",
+      "tipo": "Cursos de informática, idiomas, comunicação e expressão.",
+      "carga_horaria_individual": "15h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "45h/a",
+      "certificado": "Documento comprobatório o certificado e/ou declaração de aprovação."
+    },
+    {
+      "categoria": "Ensino",
+      "tipo": "Realização de estágio não obrigatório e vivência profissional durante a graduação.",
+      "carga_horaria_individual": "40h/a",
+      "quant_maxima_por_atividade": 1,
+      "carga_horaria_total": "40h/a",
+      "certificado": "Documento comprobatório o certificado e/ou declaração do estágio."
+    },
+    {
+      "categoria": "Ensino",
+      "tipo": "Participação em representação estudantil e órgãos colegiados por semestre.",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 2,
+      "carga_horaria_total": "20h/a",
+      "certificado": "Documento comprobatório a portaria de nomeação."
+    },
+    {
+      "categoria": "Ensino",
+      "tipo": "Participação como ouvinte em defesas de TCC, dissertação, tese ou palestras relacionadas a formação profissional.",
+      "carga_horaria_individual": "04h/a",
+      "quant_maxima_por_atividade": 5,
+      "carga_horaria_total": "20h/a",
+      "certificado": "Certificado"
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Participação como bolsista em projeto de pesquisa ou extensão cadastrado no SUAP.",
+      "carga_horaria_individual": "20h/a",
+      "quant_maxima_por_atividade": 2,
+      "carga_horaria_total": "40h/a",
+      "certificado": "Documento comprobatório o atestado de participação no projeto emitido pela coordenação de pesquisa do campus."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Participação como colaborador em projeto de pesquisa ou extensão cadastrado no SUAP.",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "30h/a",
+      "certificado": "Documento comprobatório o atestado de participação no projeto emitido pela coordenação de pesquisa do campus."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Participação em eventos científicos.",
+      "carga_horaria_individual": "05h/a",
+      "quant_maxima_por_atividade": 4,
+      "carga_horaria_total": "20h/a",
+      "certificado": "Documento comprobatório o certificado de participação, emitido pela instituição promotora do evento."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Apresentação de pôster em eventos científicos.",
+      "carga_horaria_individual": "05h/a",
+      "quant_maxima_por_atividade": 5,
+      "carga_horaria_total": "25h/a",
+      "certificado": "Documento comprobatório o certificado emitido pela instituição promotora do evento."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Apresentação oral em eventos científicos.",
+      "carga_horaria_individual": "05h/a",
+      "quant_maxima_por_atividade": 5,
+      "carga_horaria_total": "25h/a",
+      "certificado": "Documento comprobatório o certificado de apresentação, emitido pela instituição promotora do evento."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Ministrar minicurso/oficina/palestra em eventos científicos.",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 5,
+      "carga_horaria_total": "50h/a",
+      "certificado": "Documento comprobatório o certificado de palestrante, emitido pela instituição promotora do evento."
+    },
+    {
+      "categoria": "Pesquisa e/ou Extensão",
+      "tipo": "Publicação de artigos científicos completos em periódicos ou eventos.",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 5,
+      "carga_horaria_total": "50h/a",
+      "certificado": "Documento comprobatório a cópia do artigo."
+    },
+    {
+      "categoria": "Sem categoria",
+      "tipo": "Registro de Propriedade Intelectual (software, patente, marca e outro).",
+      "carga_horaria_individual": "15h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "45h/a",
+      "certificado": "Sem informação"
+    },
+    {
+      "categoria": "Outras atividades",
+      "tipo": "Maratonas e outras competições de programação ou informática.",
+      "carga_horaria_individual": "15h/a",
+      "quant_maxima_por_atividade": 2,
+      "carga_horaria_total": "30h/a",
+      "certificado": "Sem informação"
+    },
+    {
+      "categoria": "Outras atividades",
+      "tipo": "Participação voluntária na organização de eventos (de informática, esportivos ou culturais).",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 2,
+      "carga_horaria_total": "20h/a",
+      "certificado": "Atestado/declaração assinado e carimbado pelo responsável pela instituição, contendo o nome do evento, descrição sucinta do mesmo e data de sua realização."
+    },
+    {
+      "categoria": "Outras atividades",
+      "tipo": "Participação voluntária em eventos filantrópicos.",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 2,
+      "carga_horaria_total": "20h/a",
+      "certificado": "Documento comprobatório o atestado/declaração emitido pelo setor responsável."
+    },
+    {
+      "categoria": "Outras atividades",
+      "tipo": "Visitas técnicas.",
+      "carga_horaria_individual": "05h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "15h/a",
+      "certificado": "Sem informação"
+    },
+    {
+      "categoria": "Outras atividades",
+      "tipo": "Treinamento em informática (bootcamp).",
+      "carga_horaria_individual": "10h/a",
+      "quant_maxima_por_atividade": 3,
+      "carga_horaria_total": "30h/a",
+      "certificado": "Sem informação"
+    }
+  ]
+}

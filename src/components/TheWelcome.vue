@@ -1,4 +1,5 @@
 <script setup>
+import 'bootstrap';
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
@@ -33,14 +34,16 @@ import HelloWorld from '../components/HelloWorld.vue'
         </span>
         <a href="https://suap.ifpi.edu.br/" target="_blank" rel="noopener">SUAP</a>
       </p>
-      <center>
-        <router-link type="button" class="btn btn-primary btn-lg" to="/about">Entrar</router-link>
-      </center>
+      <div style="text-align: center;">
+        <router-link class="btn btn-primary btn-lg mb-2 rounded-pill" to="/about">Entrar</router-link>
+      </div>
     </WelcomeItem>
   </div>
 </template>
 
 <style scoped>
+@import 'bootstrap';
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -113,4 +116,5 @@ nav a:first-of-type {
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}</style>
+}
+</style>
