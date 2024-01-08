@@ -25,17 +25,17 @@ import HelloWorld from '../components/HelloWorld.vue'
         O ACC plan é um site desenvolvido para auxiliar os alunos do curso de ADS do IFPI - Campus Picos no planejamento
         de suas
         atividades complementares.
-        Entre suas funções estão a listagem de atividades, criação de uma lista de atividades, organização da lista de
-        atividades e
-        cálculo de quantas horas um certificado valerá (em caso de deferido)
+        Entre suas funções estão a listagem de atividades, criação de uma lista de atividades e organização da lista de
+        atividades
         <span style="color: red">
           . IMPORTANTE: este site não foi desenvolvido pelo IFPI, portanto não
           validará suas atividades, devem ser validadas em:
         </span>
-        <a href="https://suap.ifpi.edu.br/" target="_blank" rel="noopener">SUAP</a>
+        <a href="https://suap.ifpi.edu.br/" target="_blank" rel="noopener">SUAP</a><span style="color: red">. Este site utiliza armazenamento local, portanto utilize o mesmo navegador e conta logada para acessar os dados novamente.
+      </span>
       </p>
       <div style="text-align: center;">
-        <router-link class="btn btn-primary btn-lg mb-2 rounded-pill" to="/about">Entrar</router-link>
+        <router-link class="btn btn-primary btn-lg mb-2 rounded-pill" to="/listaAtividades">Entrar</router-link>
       </div>
     </WelcomeItem>
   </div>

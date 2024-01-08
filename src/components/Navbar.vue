@@ -10,7 +10,7 @@
           <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="menuNavbar">
           <div class="navbar-nav ms-auto">
-            <router-link to="/about" class="nav-link text-white">lista de ACC</router-link>
+            <router-link to="/listaAtividades" class="nav-link text-white">lista de ACC</router-link>
             <router-link to="/minhaLista" class="nav-link text-white">minha lista</router-link>
             <a href="/" class="nav-link text-danger">sair</a>
           </div>

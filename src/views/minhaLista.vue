@@ -159,7 +159,7 @@ export default {
     </div>
   </div>
   <p class="text-center mb-2">
-    recomendo marcas as atividades como concluídas, apenas após o deferimento no <a href="https://suap.ifpi.edu.br/"
+    Recomendo marcas as atividades como concluídas, apenas após o deferimento no <a href="https://suap.ifpi.edu.br/"
       target="_blank">SUAP</a>, para evitar que possa se confundir.
   </p>
   <div class="mb-2">

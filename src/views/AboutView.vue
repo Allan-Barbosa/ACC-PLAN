@@ -115,7 +115,7 @@ export default {
     AVISO: para conclusão das atividades complementares é necessário realizar atividades de pelo menos duas categorias
     de
     atividade e completar 100 horas. Para criar sua lista é necessário colocar a quantidade da atividade que deseja
-    realizar no campo ao lado de cada atividade e após isso clicar no botão salvar lista no final da página
+    realizar no campo ao lado de cada atividade e após isso clicar no botão criar lista no final da página.
   </p>
   <div class="progress mb-2">
     <div class="progress-bar progress-bar-striped progress-bar-animated active rounded-pill" role="progressbar"
