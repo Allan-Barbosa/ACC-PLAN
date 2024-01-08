@@ -44,11 +44,20 @@ export default {
           if (dados_table[i].quantidade != 0) {
             const { quantidade, quant_maxima_por_atividade, ...objSemQuantidade } = dados_table[i];
             for (let j = 0; j < quantidade; j++) {
+              const date = new Date();
+              const currentYear = date.getFullYear();
+              const mes = date.getMonth()
+              let semestre
+              if (mes < 7) {
+                semestre = 1
+              } else {
+                semestre = 2
+              }
               linhas.push({
                 ...objSemQuantidade,
                 realizada: 'unchecked',
-                ano: 0,
-                semestre: 0,
+                ano: currentYear,
+                semestre: semestre,
               });
             }
           }
