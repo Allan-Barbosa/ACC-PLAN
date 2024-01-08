@@ -15,7 +15,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('./src/views/AboutView.vue')
+      component: () => import('src\views\AboutView.vue')
     },
     {
       path: '/minhaLista',
@@ -23,7 +23,7 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('./src/views/minhaLista.vue')
+      component: () => import('src\views\minhaLista.vue')
     }
   ]
 })
