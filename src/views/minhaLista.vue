@@ -34,7 +34,7 @@ const linhas = localStorage.getItem("dados")
 const linhasObjeto = JSON.parse(linhas);
 const date = new Date();
 const currentYear = date.getFullYear();
-let dados
+let dados = []
 if (linhasObjeto[0].ano == 0) {
   dados = linhasObjeto.map(item => ({ ...item, ano: currentYear, semestre: 1 }));
 } else {
