@@ -116,6 +116,9 @@ export default {
           progresso += valorNumerico;
         }
       }
+      if (progresso>=100){
+        alert('Parabéns, atividades complementares concluídas!')
+      }
       self.increment(progresso);
       const linhas = []
       for (let i = 0; i < dados_table.length; i++) {
