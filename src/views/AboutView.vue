@@ -112,11 +112,14 @@ export default {
   <NavBar />
   <div class="navbar-placeholder"></div>
   <p class="text-center mb-2">
-    AVISO: para conclusão das atividades complementares é necessário realizar atividades de pelo menos duas categorias
-    de
-    atividade e completar 100 horas. Para criar sua lista é necessário colocar a quantidade da atividade que deseja
+    Para criar sua lista de atividades é necessário colocar a quantidade da atividade que deseja
     realizar no campo ao lado de cada atividade e após isso clicar no botão criar lista no final da página.
-  </p>
+<span style="color: red">
+  AVISO: para conclusão das atividades complementares é necessário realizar atividades de pelo menos dois tipos
+    de
+    atividade e completar 100 horas.
+</span>
+</p>
   <div class="progress mb-2">
     <div class="progress-bar progress-bar-striped progress-bar-animated active rounded-pill" role="progressbar"
       aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" :style="{ width: progress + '%' }">
@@ -135,23 +138,23 @@ export default {
     <thead>
       <tr>
         <th>QTD</th>
-        <th>atividade</th>
-        <th>tipo</th>
+        <th>Atividade</th>
+        <th>Tipo</th>
         <th>CH_individual</th>
         <th>QTD_MAX</th>
         <th>CH_total</th>
-        <th>certificado</th>
+        <th>Certificado</th>
       </tr>
     </thead>
     <tfoot>
       <tr>
         <th>QTD</th>
-        <th>atividade</th>
-        <th>tipo</th>
+        <th>Atividade</th>
+        <th>Tipo</th>
         <th>CH_individual</th>
         <th>QTD_MAX</th>
         <th>CH_total</th>
-        <th>certificado</th>
+        <th>Certificado</th>
       </tr>
     </tfoot>
   </DataTable>

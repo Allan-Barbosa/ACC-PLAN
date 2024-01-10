@@ -126,7 +126,8 @@ export default {
       }
       localStorage.removeItem("dados");
       localStorage.setItem("dados", JSON.stringify(linhas))
-      $('#example2').DataTable().clear().rows.add(linhas).draw();
+      var pagAtual = $('#example2').DataTable().page()
+      $('#example2').DataTable().clear().rows.add(linhas).draw().page(pagAtual).draw('page');
     });
     $('#example2').on('input', 'input[type="number"]', function () {
       const rowIndex = dataTable.row($(this).closest('tr')).index();
@@ -144,7 +145,8 @@ export default {
       }
       localStorage.removeItem("dados");
       localStorage.setItem("dados", JSON.stringify(linhas))
-      $('#example2').DataTable().clear().rows.add(linhas).draw();
+      var pagAtual = $('#example2').DataTable().page()
+      $('#example2').DataTable().clear().rows.add(linhas).draw().page(pagAtual).draw('page');
     });
   }
 };
@@ -179,25 +181,25 @@ export default {
       <thead>
         <tr>
           <th>CONC.</th>
-          <th>atividade</th>
-          <th>tipo</th>
+          <th>Atividade</th>
+          <th>Tipo</th>
           <th>CH_individual</th>
           <th>CH_total</th>
-          <th>certificado</th>
-          <th>ano</th>
-          <th>semestre</th>
+          <th>Certificado</th>
+          <th>Ano</th>
+          <th>Semestre</th>
         </tr>
       </thead>
       <tfoot>
         <tr>
           <th>CONC.</th>
-          <th>atividade</th>
-          <th>tipo</th>
+          <th>Atividade</th>
+          <th>Tipo</th>
           <th>CH_individual</th>
           <th>CH_total</th>
-          <th>certificado</th>
-          <th>ano</th>
-          <th>semestre</th>
+          <th>Certificado</th>
+          <th>Ano</th>
+          <th>Semestre</th>
         </tr>
       </tfoot>
     </DataTable>
